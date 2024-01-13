@@ -1,0 +1,672 @@
+:-root{
+  --maincolor: #F64F4B;
+}
+
+
+
+
+.home {
+    background-color: #f4f0e7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .home .div {
+    background-color: var(--thirdcolor);
+    overflow: hidden;
+    width: 1728px;
+    height: 4062px;
+    position: relative;
+  }
+  
+  .home .overlap {
+    position: absolute;
+    width: 1814px;
+    height: 1117px;
+    top: 0;
+    left: -38px;
+  }
+  
+  .home .navbar {
+    position: absolute;
+    width: 1728px;
+    height: 351px;
+    top: 0;
+    left: 38px;
+  }
+  
+  .home .jumbotron {
+    position: absolute;
+    width: 1803px;
+    height: 793px;
+    top: 324px;
+    left: 0;
+  }
+  
+  .home .overlap-group {
+    position: absolute;
+    width: 1814px;
+    height: 444px;
+    top: -79px;
+    left: 0;
+  }
+  
+  .home .overlap-group-2 {
+    position: absolute;
+    width: 1803px;
+    height: 366px;
+    top: 78px;
+    left: 0;
+  }
+  
+  .home .text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Apfel Grotezk-Fett", Helvetica;
+    font-weight: 400;
+    color: var(--secondcolor);
+    font-size: 150px;
+    letter-spacing: -3px;
+    line-height: 210px;
+    white-space: nowrap;
+  }
+  
+  .home .text-wrapper-2 {
+    position: absolute;
+    top: 156px;
+    left: 504px;
+    font-family: "Apfel Grotezk-Fett", Helvetica;
+    font-weight: 400;
+    color: var(--secondcolor);
+    font-size: 150px;
+    letter-spacing: -3px;
+    line-height: 210px;
+    white-space: nowrap;
+  }
+  
+  .home .ucuy-logo {
+    position: absolute;
+    width: 1214px;
+    height: 157px;
+    top: 120px;
+    left: 295px;
+    object-fit: cover;
+  }
+  
+  .home .notiff {
+    top: 0;
+    position: absolute;
+    width: 316px;
+    height: 141px;
+    left: 1498px;
+    overflow: hidden;
+  }
+  
+  .home .frame {
+    width: 294px;
+    height: 120px;
+    left: 327px;
+    border-radius: 16px;
+    border: 1px solid;
+    border-color: var(--notifbackground);
+    backdrop-filter: blur(14px) brightness(100%);
+    -webkit-backdrop-filter: blur(14px) brightness(100%);
+    background: linear-gradient(180deg, rgb(217, 217, 217) 0%, rgba(217, 217, 217, 0) 100%);
+    position: relative;
+    top: 10px;
+  }
+  
+  .home .frame-2 {
+    width: 270px;
+    height: 100px;
+    left: 16px;
+    position: relative;
+    top: 10px;
+  }
+  
+  .home .xnix-line-arrow-top-wrapper {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    left: 0;
+    background-color: var(--maincolor);
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  
+  .home .xnix-line-arrow-top {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 1653px;
+    left: -1165px;
+  }
+  
+  .home .unleash-pesta-hari {
+    position: absolute;
+    top: 47px;
+    left: 0;
+    font-family: "Apfel Grotezk-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    line-height: 22.4px;
+  }
+  
+  .home .span {
+    color: #000000;
+  }
+  
+  .home .text-wrapper-3 {
+    color: #f64f4b;
+  }
+  
+  .home .currently-a-product {
+    position: absolute;
+    width: 1214px;
+    top: 558px;
+    left: 295px;
+    font-family: "Apfel Grotezk-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--blackcolor);
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    line-height: normal;
+  }
+  
+  .home .text-wrapper-4 {
+    font-family: "Apfel Grotezk-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: -0.5px;
+  }
+  
+  .home .descend-into-chaos {
+    position: absolute;
+    width: 450px;
+    height: 27px;
+    top: 698px;
+    left: 677px;
+  }
+  
+  .home .p {
+    position: absolute;
+    top: -1px;
+    left: 10px;
+    font-family: "Apfel Grotezk-Fett", Helvetica;
+    font-weight: 400;
+    color: var(--maincolor);
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .frame-wrapper {
+    top: 105px;
+    position: absolute;
+    width: 316px;
+    height: 141px;
+    left: 1498px;
+    overflow: hidden;
+  }
+  
+  .home .img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 1793px;
+    left: -1165px;
+  }
+  
+  .home .imean {
+    position: absolute;
+    width: 1214px;
+    height: 662px;
+    top: 1202px;
+    left: 80px;
+  }
+  
+  .home .overlap-2 {
+    position: relative;
+    height: 661px;
+  }
+  
+  .home .text-wrapper-5 {
+    position: absolute;
+    width: 1036px;
+    top: 521px;
+    left: 1px;
+    font-family: "Apfel Grotezk-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--maincolor);
+    font-size: 32px;
+    letter-spacing: -0.64px;
+    line-height: normal;
+  }
+  
+  .home .style {
+    position: absolute;
+    width: 626px;
+    height: 625px;
+    top: 0;
+    left: 554px;
+  }
+  
+  .home .i-am-not-your {
+    position: absolute;
+    width: 1214px;
+    top: 83px;
+    left: 0;
+    font-family: "Apfel Grotezk-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 120px;
+    letter-spacing: -2.4px;
+    line-height: normal;
+  }
+  
+  .home .acc {
+    position: absolute;
+    width: 2431px;
+    height: 286px;
+    top: 1948px;
+    left: -317px;
+  }
+  
+  .home .overlap-3 {
+    position: relative;
+    width: 1728px;
+    height: 1211px;
+    top: -925px;
+    left: 317px;
+  }
+  
+  .home .pattern {
+    height: 140px;
+    top: 925px;
+    position: absolute;
+    width: 1728px;
+    left: 0;
+  }
+  
+  .home .pattern-2 {
+    height: 74px;
+    top: 1064px;
+    position: absolute;
+    width: 1728px;
+    left: 0;
+  }
+  
+  .home .pattern-3 {
+    height: 112px;
+    top: 1098px;
+    position: absolute;
+    width: 1728px;
+    left: 0;
+  }
+  
+  .home .picasso-illustration {
+    position: absolute;
+    width: 647px;
+    height: 1011px;
+    top: 0;
+    left: 1081px;
+    mix-blend-mode: color-burn;
+    object-fit: cover;
+  }
+  
+  .home .studycase-card {
+    position: absolute;
+    width: 1212px;
+    height: 1176px;
+    top: 2433px;
+    left: 258px;
+  }
+  
+  .home .group {
+    position: absolute;
+    width: 1212px;
+    height: 1176px;
+    top: -37px;
+    left: 0;
+  }
+  
+  .home .study-case-card {
+    position: absolute;
+    width: 507px;
+    height: 563px;
+    top: 0;
+    left: 0;
+  }
+  
+  .home .UI-UX-designer {
+    position: absolute;
+    top: 63px;
+    left: 43px;
+    font-family: "Apfel Grotezk-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .text-wrapper-6 {
+    color: #f64f4b;
+    text-decoration: underline;
+  }
+  
+  .home .text-wrapper-7 {
+    position: absolute;
+    top: 50px;
+    left: 24px;
+    font-family: "Apfel Grotezk-Fett", Helvetica;
+    font-weight: 400;
+    color: var(--blackcolor);
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .study-case-category {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 4px 6px;
+    position: absolute;
+    top: 104px;
+    left: 43px;
+    background-color: var(--secondlabelfullcase);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .home .div-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Apfel Grotezk-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .text-wrapper-8 {
+    color: #4e4bf6;
+  }
+  
+  .home .check-out {
+    position: absolute;
+    width: 418px;
+    top: 141px;
+    left: 44px;
+    font-family: "Apfel Grotezk-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .study-case-thumbnail {
+    position: absolute;
+    width: 419px;
+    height: 291px;
+    top: 223px;
+    left: 43px;
+    object-fit: cover;
+  }
+  
+  .home .study-case-card-2 {
+    top: 0;
+    left: 705px;
+    position: absolute;
+    width: 507px;
+    height: 563px;
+  }
+  
+  .home .UNDER-CONSTRUCTION-wrapper {
+    background-color: var(--warnakepet);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 4px 6px;
+    position: absolute;
+    top: 104px;
+    left: 43px;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .home .text-wrapper-9 {
+    color: #be4c00;
+  }
+  
+  .home .study-case-card-3 {
+    top: 613px;
+    left: 0;
+    position: absolute;
+    width: 507px;
+    height: 563px;
+  }
+  
+  .home .div-wrapper {
+    background-color: #f64f4b5c;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 4px 6px;
+    position: absolute;
+    top: 104px;
+    left: 43px;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .home .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Apfel Grotezk-Fett", Helvetica;
+    font-weight: 400;
+    color: var(--maincolor);
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .study-case-card-4 {
+    top: 613px;
+    left: 705px;
+    position: absolute;
+    width: 507px;
+    height: 563px;
+  }
+  
+  .home .notification {
+    position: absolute;
+    width: 1287px;
+    height: 47px;
+    top: -149px;
+    left: -38px;
+  }
+  
+  .home .overlap-group-wrapper {
+    position: relative;
+    width: 1215px;
+    height: 47px;
+    left: 33px;
+  }
+  
+  .home .overlap-group-3 {
+    position: relative;
+    width: 1213px;
+    height: 47px;
+    border-radius: 10px;
+  }
+  
+  .home .rectangle {
+    position: absolute;
+    width: 1213px;
+    height: 47px;
+    top: 0;
+    left: 0;
+    background-color: var(--maincolor);
+    border-radius: 10px;
+    opacity: 0.5;
+  }
+  
+  .home .if-you-have-been {
+    position: absolute;
+    top: 13px;
+    left: 92px;
+    font-family: "Apfel Grotezk-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .text-wrapper-11 {
+    color: #ffffff;
+  }
+  
+  .home .footer {
+    position: absolute;
+    width: 1728px;
+    height: 403px;
+    top: 3654px;
+    left: 0;
+    background-color: var(--secondcolor);
+    background-image: url(./img/mask-group.png);
+    background-size: 100% 100%;
+  }
+  
+  .home .footer-2 {
+    position: absolute;
+    width: 342px;
+    height: 178px;
+    top: 62px;
+    left: 1317px;
+  }
+  
+  .home .text-wrapper-12 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Apfel Grotezk-Fett", Helvetica;
+    font-weight: 400;
+    color: var(--whitecolor);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .text-wrapper-13 {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    font-family: "Apfel Grotezk-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--whitecolor);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .text-wrapper-14 {
+    position: absolute;
+    top: 60px;
+    left: 209px;
+    font-family: "Apfel Grotezk-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--whitecolor);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .text-wrapper-15 {
+    position: absolute;
+    top: 106px;
+    left: 0;
+    font-family: "Apfel Grotezk-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--whitecolor);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .text-wrapper-16 {
+    position: absolute;
+    top: 106px;
+    left: 209px;
+    font-family: "Apfel Grotezk-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--whitecolor);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .text-wrapper-17 {
+    position: absolute;
+    top: 152px;
+    left: 0;
+    font-family: "Apfel Grotezk-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--whitecolor);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .text-wrapper-18 {
+    position: absolute;
+    top: 0;
+    left: 209px;
+    font-family: "Apfel Grotezk-Fett", Helvetica;
+    font-weight: 400;
+    color: var(--whitecolor);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .ucuy-logo-2 {
+    position: absolute;
+    width: 859px;
+    height: 111px;
+    top: 146px;
+    left: 80px;
+    object-fit: cover;
+  }
+  
